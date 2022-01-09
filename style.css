@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========
+header section  start
+========== */
+#header{
+    background: url(image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.fit-logo{
+    width: 150px;
+    margin-top: 25px;
+}
+#header ul li a{
+  float: right;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.fa-bars{
+    color: #fff ; 
+}
+.navbar-toggler{
+    border:none !important;
+    outline: none !important;
+}
+/* ==========
+header section  start
+========== */
+
+/* ==========
+wolcome section  start
+========== */
+.welcome-content{
+    padding: 35px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.wel-head{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.wel-para{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: black;
+}
+#welcome .home-btn{
+    margin-top: 10px;
+    padding: 20px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right ,  #654ea3,#eaafc8);
+}
+#welcome .home-btn:focus{
+  box-shadow: none;
+}
+/* ==========
+welcome section  end
+========== */
+
+/* ==========
+About-us section  Stert
+========== */
+#about-us{
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+#about-us .col-md-6{
+    padding: 0 20px;
+}
+#about-us img{
+    padding: 25px 0;
+}
+.about-first-text{
+    padding: 10px 0; 
+}
+.about-first-text h1{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about-first-text p{
+    font-size: 15px;
+}
+.text-justify .about-video{
+    margin: 0;
+    padding-top: 17px ;
+}
+/* ==========
+About-us section  end
+========== */
+
+/* ==========
+Services section Start
+========== */
+#services{
+    padding-top:10% ;
+    padding-bottom:12% ;
+    
+}
+#services .middle{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.services-content h2{
+   padding: 15px 0;
+   font-weight: 600;
+}
+
+/* ==========
+Services section  end
+========== */
+
+
+/* ==========
+feture section  start
+========== */
+#feture{
+   background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/feature-background.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    padding-top: 12%;
+    padding-bottom: 12%;
+   color: #fff;
+}
+#feture .col-md-6{
+    padding: 20px;
+}
+.feture-us-img{
+    background-position: center;
+    background-size: cover;
+}
+.feture-us-box{
+  
+}
+.feture-us-content{
+    display: flex;
+}
+.feture-us-icon{
+    padding: 20px;
+    font-size: 50px;
+}
+.feture-us-text{
+    padding-left: 25px;
+}
+.feture-us-text h2{
+    font-weight: 600;
+    padding:8px 0px;
+}
+.feture-us-text p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+/* ==========
+feture section  end
+========== */
+
+
+/* ==========
+   testimonial section  end
+========== */
+#testimonial{
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+.testimonail-content{
+    text-align: center;
+padding-bottom: 35px;
+}
+.testimonail-content h1{
+    font-weight: 600;
+    padding: 15px 0;
+    color: rgb(2, 30, 56) ;
+    font-size: 50px;
+}
+.testimonail-content p{
+    font-size: 20px;
+}
+.reviwe{
+    font-size: 18px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+}
+.reviwe .fa-twitter{
+    padding-right: 10px ;
+    color: aqua;
+}
+.reviwe span{
+    color: rgb(2, 110, 110);
+    font-weight: 600;
+    padding: 10px 0;
+}
+.user-say img{
+    height: 60px;
+    width: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+
+}
+.row .middle{
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+/* ==========
+   testimonial section  end
+========== */
+
+
+/* ==========
+ subscribe  section  end
+========== */
+#subscribe{
+    margin-bottom: -105px;
+}
+.subscribe{
+    padding: 50px 20px;
+    background-color: rgb(22, 45, 82);
+    position: relative;
+    box-shadow:0 0 20px 7px rgba(0,0,0,0.2);
+}
+.subscribe-text {
+    color: #fff;
+}
+.subscribe-text .input-group{
+    max-width: 600px;
+    border-radius:30px;
+    background: #fff;
+    padding: 5px;
+    margin: 10px auto;
+}
+.subscribe-text .input-group .form-control{
+   
+    border: none;
+    background: transparent;
+}
+.subscribe-text .input-group .form-control:focus{
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+.subscribe-text .input-group-prepend{
+   background-image: linear-gradient(to right ,  #654ea3,#eaafc8);
+    border-radius: 30px;
+}
+.subscribe-text .input-group-text{
+    background: transparent;
+    border: none;
+    color: #fff;
+ }
+ .subscribe-text .btn:focus{
+    box-shadow: none;
+ }
+/* ==========
+   subscribe  section  end
+========== */
+/* ==========
+ Footer section  end
+========== */
+#footer-section{
+    background: rgb(212, 209, 209);
+    padding-top: 9%;
+    color:rgb(22, 45, 82) ;
+    display: flex;
+}
+.footer-first-col img{
+    width: 100%;
+}
+.footer-first-col p{
+    padding: 10px;
+    font-size: medium;
+    font-weight: 300;
+}
+.footer-second-col h4{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.footer-second-col p{
+    display: inline-block;
+}
+.footer-therd-col h4{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.footer-therd-col .fas{
+    padding-bottom:13px ;
+}
+.footer-forth-col h4{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.footer-forth-col .socila-maidia {
+    display: inline-block;
+    padding-bottom: 13px;
+}
+.footer-forth-col .socila-maidia .fa-facebook{
+    padding-right: 5px;
+}
+.made hr{
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 10px;
+}
+.made h4{
+   font-weight: 600;
+   text-transform: uppercase;
+}
+/* ==========
+Footer section  end
+========== */
